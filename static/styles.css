@@ -270,3 +270,6 @@ form button[type="submit"]:hover {
     line-height: 1.6;
     text-indent: 20px;
 }
+
+html, body { min-height: 100vh; }
+body > footer { position: sticky; top: 100vh; }
